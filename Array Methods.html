@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+</body>
+
+</html>
+<script>
+
+    // push
+
+    let arr = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("push")
+    arr.push("modi")
+    console.log(arr)
+    arr.push("jay")
+    console.log(arr)
+
+
+    // pop
+
+    let arra = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    arra.pop()
+    console.log("pop")
+    console.log(arra)
+
+
+    // snift-delete
+
+    let array = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("shift-delete")
+    array.shift()
+    console.log(array)
+
+
+    // unsnift-add
+
+    let ak = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("unshift-add")
+    ak.unshift("Amreliya")
+    console.log(ak)
+
+
+    // unsnift-add
+
+    let ab = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("unshift-add")
+    ab.unshift("Amreliya")
+    console.log(ab)
+
+    //  Splice
+
+    let kk = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("Splice")
+    kk.splice(5, 0, "rudra")
+    console.log(kk)
+
+
+    //  slice
+    let mm = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("slice")
+    let a = mm.slice(0, 4)
+    console.log(a)
+
+
+    // indexOf
+
+    let jj = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("indexOf")
+    let ww = jj.indexOf("kakarot")
+    console.log(ww)
+
+
+    // Sort
+    let ss = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("Sort")
+    ss.sort()
+    console.log(ss)
+
+    //concat
+
+    let hh = [5, 6, 7, 8]
+    let gg = [1, 2, 3, 4]
+    let oo = gg.concat(hh)
+    console.log(oo)
+
+    // include
+    let SS = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    console.log("include")
+    let DD = SS.includes("Yuvraj")
+    let LL = SS.includes("MANGO")
+    console.log(DD)
+    console.log(LL)
+
+    // join
+    let AA = ["Sahil", "Avadh", "Krish", "Savan", "Aakash", "Yuvraj", "Dharuval"]
+    let E = AA.join("-")
+    console.log(E)
+
+
+    //reduce
+
+    let numbers = [1, 2, 3, 4, 5,]
+
+
+    //callback functhion
+
+    let bb1 = numbers.reduce((avadh, aakash) => { return avadh - aakash })
+    console.log(bb1)
+
+    //filter
+
+    let filter1 = [{ name: "Honda HE-V", Raking: 40, Popularity: 44 },
+    { name: "Ford Model A", Raking: 19, Popularity: 59 },
+    { name: "Dodge Caravan", Raking: 125, Popularity: 47 },
+    { name: "BMW 335", Raking: 113, Popularity: 48 }]
+
+    let car = filter1.filter((lab) => { return lab.Raking >= 45 })
+    let car1 = filter1.filter((lab) => { return lab.Popularity <= 45 })
+
+    console.log(car)
+    console.log(car1)              
+
+
+
+
+    // for Each
+
+    let game = ["Shadows of the Enchanted Realm",
+        "The Chronicles of the Arcane Guardians",
+        "Legends of the Celestial Kingdoms",
+        "Whispers of the Forgotten Magic",
+        "The Tale of the Mystic Sorceress",
+        "Echoes from the Elderwood Sanctuary",
+        "Rise of the Celestial Dragonborn",
+        "The Saga of the Lost Elven Heirloom",
+        "Convergence of the Elemental Spirits",
+        "Secrets of the AncientSpellweavers",]
+
+    game.forEach((value, index) => {
+        console.log(value)
+    })
+
+
+    // map
+</script>
